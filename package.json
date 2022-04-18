@@ -1,0 +1,11 @@
+{
+  "name": "css-classes-helper",
+  "version": "0.1.0",
+  "description": "A function/macro to get the css properties from a css class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "santiagomediabilla@gmail.com",
+  "license": "ISC"
+}
