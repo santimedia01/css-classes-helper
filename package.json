@@ -3,7 +3,7 @@
     "lib/**/*"
   ],
   "name": "css-classes-helper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A function/macro to get the css properties from a css class",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
