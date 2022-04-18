@@ -22,8 +22,11 @@ export default class ClassesHelper implements ClassesHelperInterface {
         */
 
     const generatedCss = classes.reduce((previousClass, currentClass) => {
-      const propertyValue = this.cssClassesLibrary[currentClass];
-      if (propertyValue === undefined) this.warn(`The ${this.libraryName} class '${currentClass}' does not exist.`);
+      let propertyValue = this.cssClassesLibrary[currentClass];
+      if (propertyValue === undefined) {
+        this.warn(`The ${this.libraryName} class '${currentClass}' does not exist.`);
+        propertyValue = '';
+      }
 
       return previousClass + ' ' + propertyValue;
     }, '');
