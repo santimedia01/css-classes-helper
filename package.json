@@ -1,17 +1,17 @@
 {
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "name": "css-classes-helper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A function/macro to get the css properties from a css class",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prepare": "npm run build",
-    "version": "npm run format && git add -A",
     "postversion": "git push && git push --tags"
   },
   "repository": {
