@@ -1,3 +1,3 @@
-import { KeyValueStringObject } from "../types";
+import { KeyValueStringObject } from '../types';
 
 export type CssProperties = KeyValueStringObject;
